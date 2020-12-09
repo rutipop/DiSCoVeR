@@ -1,0 +1,75 @@
+
+body {
+  background-color: #3D4756;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.info-section {
+  padding: 5% 15%;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.section-description {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/* HEADER  */
+#header {
+  height: 40rem;
+  background: radial-gradient(ellipse at bottom, #866971 0%, #95ADCF 80%);
+  overflow: hidden;
+}
+
+.header-title {
+  padding-top: 20%;
+  color: #1a1a1a;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2.2rem;
+}
+
+.header-title .letter {
+  display: inline-block;
+  line-height: 1;
+}
+
+/* SECTIONS */
+#study {
+  background-color: white;
+}
+
+#technology {
+  background-color: #9BA5B5;
+}
+
+#team {
+  /* background-color: #3D4756; */
+  background-color: white;
+}
+
+#funding {
+  background-color: #95ADCF;
+}
+
+#publications {
+  background-color: #BC9CA5;
+}
+
+#press {
+  background-color: #866971;
+}
+
+#contact {
+  background-color: #3D4756;
+}
