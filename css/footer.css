@@ -2,8 +2,8 @@
 .site-footer {
 
   padding: 2rem 15% 1rem;
-  background-color: #1A1A1A;
-  color: #3D4756;
+  background-color: var(--my-black);
+  color: var(--dark-gray);
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -15,28 +15,23 @@
 
 .single-social-icon {
   margin: auto 0.4rem;
-  /* padding: 0.6rem; */
-  /* padding: 0; */
   width: 40px;
   height: 40px;
   line-height: 40px;
   text-align: center;
-
-
   padding-top: 10px;
   padding-bottom: 10px;
-  /* padding-top: 0.6rem; */
   border-radius: 100%;
-  background-color: #3D4756;
-  color: #1A1A1A;
+  background-color: var(--dark-gray);
+  color: var(--my-black);
 }
 
 .lab-site-icon:hover{
-  background-color: #866971;
+  background-color: var(--light-yellow);
 }
 
 .email-icon:hover{
-  background-color: #95ADCF;
+  background-color: var(--light-yellow);
 }
 
 .email-icon{

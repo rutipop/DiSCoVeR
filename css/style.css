@@ -1,6 +1,22 @@
+:root {
+
+
+  --light-gray: #9BA5B5;
+  --light-blue: #9BA5B5;
+  --light-yellow: #FCA311;
+  --dark-blue: #1d3557;
+  --dark-gray: #6B6B6B;
+  --vary-dark-gray: #3D4756;
+  --my-black: #1A1A1A;
+
+
+  --header-font: 'Oswald';
+  --small-font: 'Open Sans';
+
+}
 
 body {
-  background-color: #3D4756;
+  background-color: var(--dark-gray);
   /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Oswald', sans-serif;
   margin: 0;
@@ -25,21 +41,16 @@ body {
 /* HEADER  */
 #header {
   height: 40rem;
-  background: radial-gradient(ellipse at bottom, #866971 0%, #95ADCF 80%);
-  /* background: radial-gradient(ellipse at bottom, ORANGE 0%, #95ADCF 80%); */
-
-  /* background: radial-gradient(ellipse at bottom, #3D4756 0%, #95ADCF 80%); */
-
+  background: radial-gradient(ellipse at bottom, var(--light-yellow) 0%, var(--light-blue) 70%);
   overflow: hidden;
 }
 
 .header-title {
   padding-top: 20%;
-  color: #1a1a1a;
+  color: var(--my-black);
   text-align: center;
   font-weight: 500;
   font-size: 4rem;
-  /* text-transform: uppercase; */
   letter-spacing: 2.2rem;
 }
 
@@ -48,26 +59,22 @@ body {
   line-height: 1;
 }
 
-.header-description{
+.header-description {
   padding: 10% 25% 0;
-  color: #1a1a1a;
   text-align: center;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 1.5rem;
-  /* text-transform: uppercase; */
-  /* letter-spacing: 2.2rem; */
 }
-
-
 
 /* READ MORE BUTTON */
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
-
-.read-more-ref{
-  color: #1A1A1A;
+.read-more-ref {
+  color: var(--my-black);
+  font-size: 1.3rem;
 }
+
 .read-more-ref:link {
   text-decoration: none;
 }
@@ -76,26 +83,18 @@ body {
   text-decoration: none;
 }
 
-.read-more-ref:hover {
+.read-more-ref:hover , .read-more-ref:active {
   text-decoration: none;
-  color: #866971;
-}
-
-.read-more-ref:active {
-  text-decoration: none;
-  color: #866971;
+  color: var(--light-yellow);
 }
 
 
 
-
-
-.right-button{
+.right-button {
   text-align: right;
 }
 
-
-button.read-more-btn {
+/* button.read-more-btn {
   color: #454545;
   background: transparent;
   border-width: 2px;
@@ -111,6 +110,7 @@ button.read-more-btn {
   color: #1A1A1A;
   border-color: #1A1A1A;
 }
+
 button.read-more-btn:before,
 button.read-more-btn:after {
   content: "";
@@ -122,46 +122,51 @@ button.read-more-btn:after {
   height: 1em;
   transition: all 0.3s ease-in-out;
   border-color: #1A1A1A;
-
-
 }
+
 button.read-more-btn:before {
   top: -6px;
   left: -6px;
   border-width: 2px 0 0 2px;
   z-index: 5;
 }
+
 button.read-more-btn:after {
   bottom: -6px;
   right: -6px;
   border-width: 0 2px 2px 0;
 }
+
 button.read-more-btn:hover:before,
 button.read-more-btn:hover:after {
   width: calc(100% + 12px);
   height: calc(100% + 12px);
   border-color: #1A1A1A;
 }
+
 button.read-more-btn:hover {
   color: #fff;
   background-color: #1A1A1A;
   border-color: #1A1A1A;
   cursor: pointer;
 }
+
 .panel {
   max-width: 960px;
   text-align: center;
   position: relative;
   margin: auto;
-}
+} */
+
+
+
+
 
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
-
 /* GAME GALLERY */
 .gallery {
   margin: 3rem 15%;
-
 }
 
 .gallery-cell {
@@ -173,7 +178,7 @@ button.read-more-btn:hover {
 /* .flickity-page-dots{
   text-align: center !important;
   /* margin-left: 0; */
-  /* padding-inline-start:0 !important;
+/* padding-inline-start:0 !important;
 }
 
 .flickity-page-dots .dot {
@@ -186,50 +191,122 @@ button.read-more-btn:hover {
 .flickity-page-dots .dot.is-selected {
   background: white;
 } */
-
-
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
-
 /* DOWNLOAD BUTTONS */
-
-.download-btn-section{
+.download-btn-section {
   text-align: center;
-
 }
 
-.download-btn{
-  margin: 2rem;
-  padding:  0.5rem 1rem;
-  border-radius: 0.5rem;
-  border-color: transparent;
+
+.download-btn {
+  margin: 1.5rem;
+  width: 9rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
   font-family: 'Open Sans', 'sans-serif';
-  background-color: #1A1A1A;
+  letter-spacing: 2.2px;
   color: white;
+  background-color: var(--my-black);
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.download-btn:hover {
+  background-color: var(--light-yellow);
+  box-shadow: 0px 15px 20px rgba(252, 163, 17, 0.2);
+  color: var(--my-black);
+  transform: translateY(-7px);
+}
+
+/* CONTACT US */
+
+.vertical-hr{
+  border:         none;
+  border-left:    0.1rem dotted var(--light-gray);
+  width:          0.1rem;
+}
+
+
+.right-col{
+  border:         none;
+  border-left:    0.1rem solid var(--light-yellow);
+  /* height:         20rem; */
 
 }
 
-.download-btn:hover{
-  -webkit-filter: invert(100%);
- filter: invert(100%);
+.contact-col{
+  margin-top:2rem;
+  padding: 2rem  7rem;
+}
+
+.contact-small-section{
+  margin: 1.5rem;
+}
+
+.contact-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+.contact-header{
+  margin-bottom: 1.5rem;
+}
+
+.email-link{
+  text-decoration: none;
+  color: var(--my-black);
 }
 
 
+.email-link:link {
+  text-decoration: none;
+}
+
+.email-link:visited {
+  text-decoration: none;
+}
+
+.email-link:hover , .email-link:active {
+  text-decoration: none;
+  color: var(--light-yellow);
+}
 /* ------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------- */
-
-
-
-
-
-
 /* SECTIONS COLORS */
-#study{ background-color: white;}
-#game{ background-color: #9BA5B5;}
-#technology{ background-color: white;}
-#team {background-color: #95ADCF;}
-#funding {background-color: white;}
-#publications {/* background-color: #BC9CA5; */background-color: #3D4756}
-/* #press{ background-color: #866971;} */
-#press{ background-color: white;}
-#contact { background-color: #95ADCF;}
+#study {
+  background-color: white;
+}
+
+#game {
+  background-color: var(--light-gray);
+}
+
+#technology {
+  background-color: white;
+}
+
+#team {
+  background-color: var(--dark-gray);
+}
+
+#funding {
+  background-color: white;
+}
+
+#publications {
+  background-color: var(--light-gray)
+}
+
+#press {
+  background-color: white;
+}
+
+#contact {
+  background-color: var(--dark-gray);
+}
