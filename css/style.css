@@ -59,12 +59,29 @@ body {
   line-height: 1;
 }
 
-.header-description {
-  padding: 10% 25% 0;
+
+
+.header-box{
+  padding-top: 13%;
+
+  color: var(--my-black);
   text-align: center;
-  font-family: sans-serif;
-  font-weight: 200;
-  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: 'open'
+  font-size: 4rem;
+  /* letter-spacing: 2.2rem; */
+}
+
+
+
+.large-space-letter{
+  letter-spacing: 2.2rem;
+  margin-right:-2.2rem;
+  font-size: 6rem;
+  /* text-transform: uppercase; */
+
+
+
 }
 
 /* READ MORE BUTTON */
@@ -166,11 +183,11 @@ button.read-more-btn:hover {
 /* ------------------------------------------------------------------------- */
 /* GAME GALLERY */
 .gallery {
-  margin: 3rem 15%;
+  margin: 3% 15%;
 }
 
 .gallery-cell {
-  margin-right: 2rem;
+  margin-right: 4.5rem;
   counter-increment: gallery-cell;
   border-radius: 0.5rem;
 }
@@ -217,12 +234,14 @@ button.read-more-btn:hover {
   outline: none;
   }
 
-.download-btn:hover {
+.download-btn:hover, .download-btn:active{
   background-color: var(--light-yellow);
   box-shadow: 0px 15px 20px rgba(252, 163, 17, 0.2);
   color: var(--my-black);
   transform: translateY(-7px);
 }
+
+
 
 /* CONTACT US */
 
@@ -309,4 +328,24 @@ button.read-more-btn:hover {
 
 #contact {
   background-color: var(--dark-gray);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1300px)
+{
+  .info-section{
+    padding: 3% 5%;
+  }
+
+
+
+
+
 }

@@ -10,21 +10,55 @@ $(document).ready(function() {
 
 
   // Wrap every letter in a span
-  var textWrapper = document.querySelector('.header-title');
+  var textWrapper = document.querySelector('.header-title1');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
   anime.timeline({
       loop: false
     })
     .add({
-      targets: '.header-title .letter',
+      targets: '.header-title1 .letter',
       translateX: [40, 0],
       translateZ: 0,
       opacity: [0, 1],
       easing: "easeOutExpo",
       duration: 1200,
-      delay: (el, i) => 500 + 30 * i
+      delay: (el, i) => 500 + 50 * i
     })
+
+    // Wrap every letter in a span
+    var textWrapper = document.querySelector('.header-title2');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.header-title2 .letter',
+        translateX: [40, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        easing: "easeOutExpo",
+        duration: 1200,
+        delay: (el, i) => 500 + 100 * i
+      })
+
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector('.header-title3');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+      anime.timeline({
+          loop: false
+        })
+        .add({
+          targets: '.header-title3 .letter',
+          translateX: [40, 0],
+          translateZ: 0,
+          opacity: [0, 1],
+          easing: "easeOutExpo",
+          duration: 1200,
+          delay: (el, i) => 500 + 50 * i
+        })
 
 
 

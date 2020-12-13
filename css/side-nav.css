@@ -55,3 +55,20 @@
 .nav-category:hover {
   background-color: var(--light-gray);
 }
+
+
+
+
+@media (max-width:1300px)
+{
+
+  .btn {
+    top: 1rem;
+    right: 0.1rem;
+
+    font-size: 2rem;
+  }
+
+
+
+}
