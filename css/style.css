@@ -36,6 +36,8 @@ body {
 .section-description {
   font-size: 1.5rem;
   font-weight: 200;
+  margin: 2rem 0;
+
 }
 
 /* HEADER  */
@@ -338,7 +340,7 @@ button.read-more-btn:hover {
 @media (max-width:1300px)
 {
   .info-section{
-    padding: 3% 5%;
+    padding: 10% 5%;
   }
 
   .section-title {
@@ -349,6 +351,9 @@ button.read-more-btn:hover {
   .section-description {
     font-size: 3.5rem;
     font-weight: 200;
+    /* margin-top: 3rem ;
+    margin-bottom: 3rem ; */
+    margin: 3rem 0;
   }
 
   .read-more-ref {

@@ -32,8 +32,6 @@
 .nav-list {
   position: fixed;
   z-index: 8;
-  /* top: 2rem;
-  bottom: 2rem; */
   top:0;
   right: 0;
   width: 300px;
@@ -63,10 +61,30 @@
 {
 
   .btn {
-    top: 1rem;
-    right: 0.1rem;
+    top: 3rem;
+    right: 3rem;
+    font-size: 4rem;
+  }
 
-    font-size: 2rem;
+  .btnOpen:hover {
+    font-size: 5rem;
+  }
+
+
+
+  .btnClose:hover {
+    font-size: 5rem;
+  }
+
+  .nav-category {
+    font-size: 4rem;
+
+  }
+
+  .nav-list {
+    margin-top: 3.2rem;
+    width: 35rem;
+    transform: translateX(35rem);
   }
 
 
