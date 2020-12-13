@@ -1,4 +1,12 @@
+
 $(document).ready(function() {
+
+  // $(document).tooltip({show: null});
+  // $(document).tooltip({ show: { effect: "blind", duration: 800 } });
+  // $('[data-toggle="tooltip"]').tooltip({ show: { effect: "blind", duration: 800 });
+  // $('[data-toggle="tooltip"]').tooltip( delay: {show: 0, hide: 50}
+
+
 
 
   // Wrap every letter in a span

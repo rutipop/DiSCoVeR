@@ -26,6 +26,10 @@ body {
 #header {
   height: 40rem;
   background: radial-gradient(ellipse at bottom, #866971 0%, #95ADCF 80%);
+  /* background: radial-gradient(ellipse at bottom, ORANGE 0%, #95ADCF 80%); */
+
+  /* background: radial-gradient(ellipse at bottom, #3D4756 0%, #95ADCF 80%); */
+
   overflow: hidden;
 }
 
@@ -33,9 +37,9 @@ body {
   padding-top: 20%;
   color: #1a1a1a;
   text-align: center;
-  font-weight: 400;
-  font-size: 3rem;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 4rem;
+  /* text-transform: uppercase; */
   letter-spacing: 2.2rem;
 }
 
@@ -44,32 +48,188 @@ body {
   line-height: 1;
 }
 
-/* SECTIONS */
-#study {
-  background-color: white;
+.header-description{
+  padding: 10% 25% 0;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2.2rem; */
 }
 
-#technology {
-  background-color: #9BA5B5;
+
+
+/* READ MORE BUTTON */
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+.read-more-ref{
+  color: #1A1A1A;
+}
+.read-more-ref:link {
+  text-decoration: none;
 }
 
-#team {
-  /* background-color: #3D4756; */
-  background-color: white;
+.read-more-ref:visited {
+  text-decoration: none;
 }
 
-#funding {
-  background-color: #95ADCF;
+.read-more-ref:hover {
+  text-decoration: none;
+  color: #866971;
 }
 
-#publications {
-  background-color: #BC9CA5;
+.read-more-ref:active {
+  text-decoration: none;
+  color: #866971;
 }
 
-#press {
-  background-color: #866971;
+
+
+
+
+.right-button{
+  text-align: right;
 }
 
-#contact {
-  background-color: #3D4756;
+
+button.read-more-btn {
+  color: #454545;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #454545;
+  position: relative;
+  margin: 1em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  color: #1A1A1A;
+  border-color: #1A1A1A;
 }
+button.read-more-btn:before,
+button.read-more-btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  border-style: solid;
+  width: 1em;
+  height: 1em;
+  transition: all 0.3s ease-in-out;
+  border-color: #1A1A1A;
+
+
+}
+button.read-more-btn:before {
+  top: -6px;
+  left: -6px;
+  border-width: 2px 0 0 2px;
+  z-index: 5;
+}
+button.read-more-btn:after {
+  bottom: -6px;
+  right: -6px;
+  border-width: 0 2px 2px 0;
+}
+button.read-more-btn:hover:before,
+button.read-more-btn:hover:after {
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-color: #1A1A1A;
+}
+button.read-more-btn:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  border-color: #1A1A1A;
+  cursor: pointer;
+}
+.panel {
+  max-width: 960px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* GAME GALLERY */
+.gallery {
+  margin: 3rem 15%;
+
+}
+
+.gallery-cell {
+  margin-right: 2rem;
+  counter-increment: gallery-cell;
+  border-radius: 0.5rem;
+}
+
+/* .flickity-page-dots{
+  text-align: center !important;
+  /* margin-left: 0; */
+  /* padding-inline-start:0 !important;
+}
+
+.flickity-page-dots .dot {
+
+
+  opacity: 1 !important;
+
+}
+ fill-in selected dot
+.flickity-page-dots .dot.is-selected {
+  background: white;
+} */
+
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* DOWNLOAD BUTTONS */
+
+.download-btn-section{
+  text-align: center;
+
+}
+
+.download-btn{
+  margin: 2rem;
+  padding:  0.5rem 1rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #1A1A1A;
+  color: white;
+
+}
+
+.download-btn:hover{
+  -webkit-filter: invert(100%);
+ filter: invert(100%);
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* SECTIONS COLORS */
+#study{ background-color: white;}
+#game{ background-color: #9BA5B5;}
+#technology{ background-color: white;}
+#team {background-color: #95ADCF;}
+#funding {background-color: white;}
+#publications {/* background-color: #BC9CA5; */background-color: #3D4756}
+/* #press{ background-color: #866971;} */
+#press{ background-color: white;}
+#contact { background-color: #95ADCF;}
