@@ -82,7 +82,8 @@
   }
 
   .nav-list {
-    margin-top: 3.2rem;
+    /* margin-top: 3.2rem; */
+    padding-top: 10rem;
     width: 35rem;
     transform: translateX(35rem);
   }

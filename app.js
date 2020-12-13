@@ -78,13 +78,14 @@ $(document).ready(function() {
 
   tl.timeScale(1);
 
-  tl.to('h1', 0.3, {
-      opacity: 0
-    })
-
-    .to('p', 0.3, {
-        opacity: 0
-      })
+  tl
+  // .to('h1', 0.3, {
+  //     opacity: 0
+  //   })
+  //
+  //   .to('p', 0.3, {
+  //       opacity: 0
+  //     })
 
     .to(btnOpen, 0.5, {
       x: -300,

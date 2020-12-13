@@ -7,6 +7,8 @@
   --dark-blue: #1d3557;
   --dark-gray: #6B6B6B;
   --vary-dark-gray: #3D4756;
+  --very-dark-gray: #212529;
+
   --my-black: #1A1A1A;
 
 
@@ -276,9 +278,9 @@ button.read-more-btn:hover {
 }
 
 
-.email-link:link {
+/* .email-link:link {
   text-decoration: none;
-}
+} */
 
 .email-link:visited {
   text-decoration: none;
@@ -404,7 +406,29 @@ button.read-more-btn:hover {
     margin-bottom: 2rem;
     font-size: 2.7rem;
   }
+  /* gallery */
 
+  .gallery {
+    margin: 7% 5%;
+  }
+
+  .gallery-cell {
+    /* width: 70rem; */
+    margin-right: 12rem;
+    counter-increment: gallery-cell;
+    border-radius: 0.5rem;
+  }
+
+
+
+
+  .download-btn {
+    margin: 1.5rem;
+    width: 23rem;
+    height: 7rem;
+    font-size: 2.5rem;
+    
+    }
 
 
 
