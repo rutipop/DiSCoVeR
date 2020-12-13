@@ -79,9 +79,6 @@ body {
   margin-right:-2.2rem;
   font-size: 6rem;
   /* text-transform: uppercase; */
-
-
-
 }
 
 /* READ MORE BUTTON */
@@ -344,6 +341,40 @@ button.read-more-btn:hover {
     padding: 3% 5%;
   }
 
+  .section-title {
+    font-size: 5rem;
+    font-weight: 400;
+  }
+
+  .section-description {
+    font-size: 3.5rem;
+    font-weight: 200;
+  }
+
+  .read-more-ref {
+    color: var(--my-black);
+    font-size: 3rem;
+  }
+
+  .large-space-letter{
+
+    font-size: 8rem;
+  }
+
+  .header-title1{
+    font-size: 5rem;
+
+  }
+
+  .header-title3{
+
+  font-size: 5rem;
+  }
+
+  .header-box{
+    padding-top: 8%;
+
+  }
 
 
 
