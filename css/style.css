@@ -244,17 +244,11 @@ button.read-more-btn:hover {
 
 /* CONTACT US */
 
-.vertical-hr{
-  border:         none;
-  border-left:    0.1rem dotted var(--light-gray);
-  width:          0.1rem;
-}
 
 
 .right-col{
   border:         none;
   border-left:    0.1rem solid var(--light-yellow);
-  /* height:         20rem; */
 
 }
 
@@ -334,8 +328,11 @@ button.read-more-btn:hover {
 
 
 
-
-
+/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////// */
+/* MEDIA CHANGES */
 
 @media (max-width:1300px)
 {
@@ -380,6 +377,36 @@ button.read-more-btn:hover {
     padding-top: 8%;
 
   }
+
+
+  /* CONTACT SECTION */
+
+  .right-col{
+    border-left:    0.3rem solid var(--light-yellow);
+  }
+
+  .contact-col{
+    margin-top:2rem;
+    padding: 3rem  3rem;
+  }
+
+  .contact-small-section{
+    margin: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .contact-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 3rem;
+  }
+  .contact-header{
+    margin-bottom: 2rem;
+    font-size: 2.7rem;
+  }
+
+
+
 
 
 

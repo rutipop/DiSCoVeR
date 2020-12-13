@@ -40,12 +40,23 @@
 
 
 
-@media (max-width:767px)
+@media (max-width:1300px)
 {
-  .social-icons .single-social-icon
-  {
-    margin: 0.5rem ;
-    display:inline-block;
-    text-align: center;
+
+
+
+  .site-footer {
+    padding: 2rem 5% 2rem;
+    font-size: 2rem;
   }
+
+
+  .single-social-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    padding-top: 15px;
+
+  }
+
 }
