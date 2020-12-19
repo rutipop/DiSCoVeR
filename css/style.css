@@ -8,6 +8,7 @@
   --dark-gray: #6B6B6B;
   --vary-dark-gray: #3D4756;
   --very-dark-gray: #212529;
+  --mystery-blue: #212532;
 
   --my-black: #1A1A1A;
 
@@ -18,12 +19,14 @@
 }
 
 body {
-  background-color: var(--dark-gray);
+  /* background-color: var(--dark-gray); */
+  background-color: var(--light-blue);
   /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
   top: 0;
+  color: var(--very-dark-gray);
 }
 
 .info-section {
@@ -51,7 +54,6 @@ body {
 
 .header-title {
   padding-top: 20%;
-  color: var(--my-black);
   text-align: center;
   font-weight: 500;
   font-size: 4rem;
@@ -68,7 +70,7 @@ body {
 .header-box{
   padding-top: 13%;
 
-  color: var(--my-black);
+  color: var(--very-dark-gray);
   text-align: center;
   font-weight: 900;
   font-family: 'open'
@@ -111,70 +113,6 @@ body {
 .right-button {
   text-align: right;
 }
-
-/* button.read-more-btn {
-  color: #454545;
-  background: transparent;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #454545;
-  position: relative;
-  margin: 1em;
-  display: inline-block;
-  padding: 0.5em 1em;
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-  font-weight: bold;
-  color: #1A1A1A;
-  border-color: #1A1A1A;
-}
-
-button.read-more-btn:before,
-button.read-more-btn:after {
-  content: "";
-  display: block;
-  position: absolute;
-  box-sizing: border-box;
-  border-style: solid;
-  width: 1em;
-  height: 1em;
-  transition: all 0.3s ease-in-out;
-  border-color: #1A1A1A;
-}
-
-button.read-more-btn:before {
-  top: -6px;
-  left: -6px;
-  border-width: 2px 0 0 2px;
-  z-index: 5;
-}
-
-button.read-more-btn:after {
-  bottom: -6px;
-  right: -6px;
-  border-width: 0 2px 2px 0;
-}
-
-button.read-more-btn:hover:before,
-button.read-more-btn:hover:after {
-  width: calc(100% + 12px);
-  height: calc(100% + 12px);
-  border-color: #1A1A1A;
-}
-
-button.read-more-btn:hover {
-  color: #fff;
-  background-color: #1A1A1A;
-  border-color: #1A1A1A;
-  cursor: pointer;
-}
-
-.panel {
-  max-width: 960px;
-  text-align: center;
-  position: relative;
-  margin: auto;
-} */
 
 
 
@@ -261,6 +199,7 @@ button.read-more-btn:hover {
 
 .contact-small-section{
   margin: 1.5rem;
+  color: var(--very-dark-gray);
 }
 
 .contact-icon{
@@ -274,7 +213,7 @@ button.read-more-btn:hover {
 
 .email-link{
   text-decoration: none;
-  color: var(--my-black);
+  color: var(--very-dark-gray);
 }
 
 
@@ -427,7 +366,7 @@ button.read-more-btn:hover {
     width: 23rem;
     height: 7rem;
     font-size: 2.5rem;
-    
+
     }
 
 
