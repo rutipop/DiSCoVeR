@@ -16,9 +16,6 @@
   <link rel="stylesheet" href="css/style.css">
 
 
-
-
-
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -56,8 +53,6 @@
 
   <!-- SIDE NAV -->
 
-
-
   <div class="btn btnOpen">
     <i class="fas fa-bars"></i>
   </div>
@@ -66,8 +61,20 @@
     <i class="fas fa-times"></i>
   </div>
 
+
   <ul class="nav-list">
-    <li class="nav-category"><i class="fas fa-globe-africa fa-md"></i>&nbsp EN</li>
+    <li class="nav-category" id="cur-language">
+      <i class="fas fa-globe-africa fa-md"></i>
+      &nbsp
+      <span id="cur_language_name"> EN </span>
+      &nbsp
+      <i class="fa fa-caret-down"></i>
+      <ul class="submenu">
+        <li class="submenu-category" id="english" href="#en" language-reload>English</li>
+        <li class="submenu-category" id="hebrew" href="#he" language-reload>Hebrew</li>
+        <li class="submenu-category" id="russian" href="#ru" language-reload>Russian</li>
+      </ul>
+    </li>
     <li class="nav-category">THE STUDY</li>
     <li class="nav-category">THE TECHNOLOGY</li>
     <li class="nav-category">THE TEAM</li>
@@ -80,6 +87,7 @@
 
 
 
+  <!-- ---------------------------------------------------------------------- -->
 
   <!-- STARS HEADER -->
   <section id="header">
@@ -100,9 +108,9 @@
     <!-- <h3 class="header-description">Examining the synergistic effects of a cognitive control videogame and brain stimulation on alleviating depression.</h3> -->
   </section>
 
+  <!-- ---------------------------------------------------------------------- -->
 
-
-
+  <!-- ABOUT THE STUDY SECTION-->
   <section id="study" class="info-section">
     <h1 class="section-title">The Study</h1>
     <p class="section-description">
@@ -120,7 +128,9 @@
 
   </section>
 
+  <!-- ---------------------------------------------------------------------- -->
 
+  <!-- ABOUT THE GAME SECTION -->
 
   <section id="game" class="info-section">
     <h1 class="section-title">The SOM Game</h1>
@@ -142,13 +152,10 @@
       <button class=" download-btn button" name="windows"><i class="fa fa fa-windows fa-lg"></i> Download</button>
     </div>
 
-
-
-
-
   </section>
 
-
+  <!-- ---------------------------------------------------------------------- -->
+  <!-- ABOUT THE TECHNOLOGY SECTION -->
 
   <section id="technology" class="info-section">
     <h1 class="section-title">The Technology</h1>
@@ -161,6 +168,8 @@
   </section>
 
 
+  <!-- ---------------------------------------------------------------------- -->
+  <!-- ABOUT THE TEAM SECTION -->
 
   <section id="team" class="info-section">
     <div class="diagonal-content">
@@ -191,6 +200,11 @@
     </div>
   </section>
 
+
+
+  <!-- ---------------------------------------------------------------------- -->
+  <!-- FUNDING SECTION -->
+
   <section id="funding" class="info-section">
     <h1 class="section-title">Funding</h1>
     <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -204,6 +218,9 @@
 
   </section>
 
+
+  <!-- ---------------------------------------------------------------------- -->
+  <!-- PUBLICATIONS SECTION -->
   <section id="publications" class="info-section">
     <div class="diagonal-content">
       <h1 class="section-title">Publications</h1>
@@ -219,6 +236,9 @@
 
   </section>
 
+
+  <!-- ---------------------------------------------------------------------- -->
+  <!-- PRESS SECTION -->
   <section id="press" class="info-section">
     <h1 class="section-title">Press</h1>
     <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -231,6 +251,9 @@
     </div>
   </section>
 
+
+  <!-- ---------------------------------------------------------------------- -->
+  <!-- CONTACT SECTION -->
   <section id="contact" class="info-section">
     <h1 class="section-title">Contact Us</h1>
     <div class="row">
@@ -247,6 +270,9 @@
       </div>
 
   </section>
+
+
+
 
 
 
